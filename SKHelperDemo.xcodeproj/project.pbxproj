@@ -19,7 +19,6 @@
 		6869AE7E2C62D44000D835B0 /* StoreViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6869AE7A2C62D44000D835B0 /* StoreViewList.swift */; };
 		6869AE7F2C62D44000D835B0 /* SubStoreViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6869AE7B2C62D44000D835B0 /* SubStoreViewList.swift */; };
 		68DD2A0B2C62A7FE007BC81D /* SKHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 68DD2A0A2C62A7FE007BC81D /* SKHelper */; };
-		68DD2A0D2C62A84C007BC81D /* SKHelper in Resources */ = {isa = PBXBuildFile; fileRef = 68DD2A0C2C62A84C007BC81D /* SKHelper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +35,6 @@
 		6869AE792C62D44000D835B0 /* PurchasedProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedProductsView.swift; sourceTree = "<group>"; };
 		6869AE7A2C62D44000D835B0 /* StoreViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewList.swift; sourceTree = "<group>"; };
 		6869AE7B2C62D44000D835B0 /* SubStoreViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubStoreViewList.swift; sourceTree = "<group>"; };
-		68DD2A0C2C62A84C007BC81D /* SKHelper */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SKHelper; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +96,6 @@
 		682046982C629BEE002D9A68 /* SKHelperDemo */ = {
 			isa = PBXGroup;
 			children = (
-				68DD2A0C2C62A84C007BC81D /* SKHelper */,
 				682046952C629BEE002D9A68 /* Assets.xcassets */,
 				682046922C629BEE002D9A68 /* Configuration */,
 				682046942C629BEE002D9A68 /* Preview Content */,
@@ -192,7 +189,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68DD2A0D2C62A84C007BC81D /* SKHelper in Resources */,
 				682046992C629BEE002D9A68 /* Products.plist in Resources */,
 				6820469A2C629BEE002D9A68 /* Products.storekit in Resources */,
 				6820469B2C629BEE002D9A68 /* Preview Assets.xcassets in Resources */,
