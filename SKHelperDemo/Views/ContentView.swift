@@ -27,9 +27,9 @@ struct ContentView: View {
                 }
                 
                 NavigationLink {
-                    PurchasedProductsView()
+                    PurchasesView()
                 } label: {
-                    Label("Purchased Products", systemImage: "square.and.pencil")
+                    Label("PurchasesView", systemImage: "storefront.circle.fill")
                 }
             }
         }

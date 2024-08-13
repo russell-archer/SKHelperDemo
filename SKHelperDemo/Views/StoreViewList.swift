@@ -19,23 +19,17 @@ struct StoreViewList: View {
             VStack {
                 Image(product.id)
                     .resizable()
-                    .cornerRadius(15)
-                    .aspectRatio(contentMode: .fit)
-                
-                Button(action: {
-                    selectedProductId = product.id
-                    productSelected.toggle()
-                    
-                }, label: {
-                    HStack {
-                        Image(systemName: "info.circle")
-                        Text("More info")
+                    .scaledToFit()
+                    .clipShape(.circle)
+                    .onTapGesture {
+                        selectedProductId = product.id
+                        productSelected.toggle()
                     }
-                })
             }
         }
-        .productViewStyle(.large)
-        .storeButton(.visible, for: .restorePurchases)
+        .background(LinearGradient(gradient: Gradient(colors: [.white, .blue]), startPoint: .top, endPoint: .bottom))
+        .productViewStyle(.automatic)
+        .storeButton(.visible, for: .restorePurchases, .policies)
         .storeButton(.hidden, for: .cancellation)  // Hides the close "X" at the top-right of the view
         .sheet(isPresented: $productSelected) {
             ProductViewDetails(selectedProductId: $selectedProductId)
