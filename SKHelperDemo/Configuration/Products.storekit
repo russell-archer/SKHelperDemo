@@ -2,11 +2,7 @@
   "appPolicies" : {
     "eula" : "",
     "policies" : [
-      {
-        "locale" : "en_US",
-        "policyText" : "",
-        "policyURL" : ""
-      }
+
     ]
   },
   "identifier" : "3AC40F58",

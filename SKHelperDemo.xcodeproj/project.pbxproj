@@ -17,6 +17,7 @@
 		6820469D2C629BEE002D9A68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682046962C629BEE002D9A68 /* ContentView.swift */; };
 		6820469E2C629BEE002D9A68 /* SKHelperDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682046972C629BEE002D9A68 /* SKHelperDemoApp.swift */; };
 		68299E1A2C74AE1400DEEC6B /* PurchaseTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68299E192C74AE1400DEEC6B /* PurchaseTestView.swift */; };
+		6893DC112C889F8D006CFC4A /* CurrentEntitlementTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893DC102C889F8D006CFC4A /* CurrentEntitlementTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		682046962C629BEE002D9A68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		682046972C629BEE002D9A68 /* SKHelperDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKHelperDemoApp.swift; sourceTree = "<group>"; };
 		68299E192C74AE1400DEEC6B /* PurchaseTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseTestView.swift; sourceTree = "<group>"; };
+		6893DC102C889F8D006CFC4A /* CurrentEntitlementTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentEntitlementTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				682046962C629BEE002D9A68 /* ContentView.swift */,
+				6893DC102C889F8D006CFC4A /* CurrentEntitlementTestView.swift */,
 				68299E192C74AE1400DEEC6B /* PurchaseTestView.swift */,
 			);
 			path = Views;
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6893DC112C889F8D006CFC4A /* CurrentEntitlementTestView.swift in Sources */,
 				6820469D2C629BEE002D9A68 /* ContentView.swift in Sources */,
 				6820469E2C629BEE002D9A68 /* SKHelperDemoApp.swift in Sources */,
 				68299E1A2C74AE1400DEEC6B /* PurchaseTestView.swift in Sources */,
