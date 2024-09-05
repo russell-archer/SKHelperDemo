@@ -28,6 +28,7 @@
 		682046952C629BEE002D9A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		682046962C629BEE002D9A68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		682046972C629BEE002D9A68 /* SKHelperDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKHelperDemoApp.swift; sourceTree = "<group>"; };
+		68F04A712C8A103300D3EE59 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +48,7 @@
 		682046692C6298DA002D9A68 = {
 			isa = PBXGroup;
 			children = (
+				68F04A712C8A103300D3EE59 /* README.md */,
 				682046872C629A69002D9A68 /* Frameworks */,
 				682046732C6298DA002D9A68 /* Products */,
 				682046982C629BEE002D9A68 /* SKHelperDemo */,
