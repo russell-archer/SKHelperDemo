@@ -49,30 +49,6 @@ struct ContentView: View {
                             .padding(.top, 5)
                     }
                 }
-                
-                NavigationLink {
-                    PurchaseTestView()
-                } label: {
-                    VStack(alignment: .leading) {
-                        Label("PurchaseTestView", systemImage: "purchased").font(.headline)
-                        Text("A simple purchase test using the SwiftUI-specific PurchaseAction.")
-                            .font(.footnote)
-                            .foregroundStyle(.secondary)
-                            .padding(.top, 5)
-                    }
-                }
-                
-                NavigationLink {
-                    CurrentEntitlementTestView()
-                } label: {
-                    VStack(alignment: .leading) {
-                        Label("CurrentEntitlementTestView", systemImage: "cart.fill.badge.questionmark").font(.headline)
-                        Text("Uses the .currentEntitlementTask(for:) modifier to display a view if the user has purchased a specific product.")
-                            .font(.footnote)
-                            .foregroundStyle(.secondary)
-                            .padding(.top, 5)
-                    }
-                }
             }
         }
     }
