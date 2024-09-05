@@ -1,6 +1,6 @@
 # SKHelperDemo
 
-![](./readme-assets/shelper-demo.png)
+![](./readme-assets/skhelper-demo.png)
 
 - [SKHelper Documentation Landing Page](https://russell-archer.github.io/SKHelper/documentation/skhelper) - `SKHelper` documentation landing page
 - [SKHelper Quick Start](https://russell-archer.github.io/SKHelper/documentation/skhelper/quickstart) - `SKHelper` quick-start guide 
