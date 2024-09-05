@@ -29,6 +29,7 @@
 		682046962C629BEE002D9A68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		682046972C629BEE002D9A68 /* SKHelperDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKHelperDemoApp.swift; sourceTree = "<group>"; };
 		68F04A712C8A103300D3EE59 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		68F04A732C8A251400D3EE59 /* skhelper-demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skhelper-demo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				68F04A712C8A103300D3EE59 /* README.md */,
+				68F04A722C8A250100D3EE59 /* readme-assets */,
 				682046872C629A69002D9A68 /* Frameworks */,
 				682046732C6298DA002D9A68 /* Products */,
 				682046982C629BEE002D9A68 /* SKHelperDemo */,
@@ -115,6 +117,14 @@
 				682046972C629BEE002D9A68 /* SKHelperDemoApp.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		68F04A722C8A250100D3EE59 /* readme-assets */ = {
+			isa = PBXGroup;
+			children = (
+				68F04A732C8A251400D3EE59 /* skhelper-demo.png */,
+			);
+			path = "readme-assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

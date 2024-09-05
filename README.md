@@ -1,6 +1,6 @@
 # SKHelperDemo
 
-![](./Sources/SKHelper/Documentation.docc/Resources/images/skhelper-logo.png)
+![](./readme-assets/shelper-demo.png)
 
 - [SKHelper Documentation Landing Page](https://russell-archer.github.io/SKHelper/documentation/skhelper) - `SKHelper` documentation landing page
 - [SKHelper Quick Start](https://russell-archer.github.io/SKHelper/documentation/skhelper/quickstart) - `SKHelper` quick-start guide 
@@ -11,11 +11,11 @@
 
 ## Overview of SKHelperDemo
 
-`SKHelperDemo` is an Xcode 16 project that demonstartes a bare-bones example of how to use the `SKHelper` package to create a
+`SKHelperDemo` is an Xcode 16 project that provides a bare-bones example of how to use the `SKHelper` package to create a
 SwiftUI project that supports in-app purchases.
 
 Refer to the [SKHelper Quick Start](https://russell-archer.github.io/SKHelper/documentation/skhelper/quickstart) for a step-by-step walk-through
-of how to create a SwiftUI appp that provides in-app purchases in the form of subscriptions and non-consumable products.
+of how to create a SwiftUI app that supports in-app purchases in the form of subscriptions and non-consumable products.
 
 ---
 
