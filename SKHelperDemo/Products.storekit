@@ -2,7 +2,11 @@
   "appPolicies" : {
     "eula" : "",
     "policies" : [
-
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
     ]
   },
   "identifier" : "3AC40F58",
@@ -121,7 +125,7 @@
           "introductoryOffer" : null,
           "localizations" : [
             {
-              "description" : "Subscribe to the silver service.",
+              "description" : "Personal care for your plants.",
               "displayName" : "Silver Service",
               "locale" : "en_US"
             }
@@ -154,7 +158,7 @@
           },
           "localizations" : [
             {
-              "description" : "Subscribe to the gold service.",
+              "description" : "A touch of luxury for you plants.",
               "displayName" : "Gold Service",
               "locale" : "en_US"
             }

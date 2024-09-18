@@ -58,7 +58,7 @@
          </EnvironmentVariable>
       </EnvironmentVariables>
       <StoreKitConfigurationFileReference
-         identifier = "../../SKHelperDemo/Configuration/Products.storekit">
+         identifier = "../../SKHelperDemo/Products.storekit">
       </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction

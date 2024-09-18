@@ -9,25 +9,27 @@
 /* Begin PBXBuildFile section */
 		681143772C666CC900D7A632 /* SKHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 681143762C666CC900D7A632 /* SKHelper */; };
 		682046892C629A69002D9A68 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682046882C629A69002D9A68 /* StoreKit.framework */; };
-		682046992C629BEE002D9A68 /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6820468F2C629BEE002D9A68 /* Products.plist */; };
 		6820469A2C629BEE002D9A68 /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 682046902C629BEE002D9A68 /* Products.storekit */; };
 		6820469B2C629BEE002D9A68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682046932C629BEE002D9A68 /* Preview Assets.xcassets */; };
 		6820469C2C629BEE002D9A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682046952C629BEE002D9A68 /* Assets.xcassets */; };
 		6820469D2C629BEE002D9A68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682046962C629BEE002D9A68 /* ContentView.swift */; };
 		6820469E2C629BEE002D9A68 /* SKHelperDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682046972C629BEE002D9A68 /* SKHelperDemoApp.swift */; };
-		68671B762C89E4CB00C9B9C6 /* SKHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 68671B752C89E4CB00C9B9C6 /* SKHelper */; };
+		68B343E02C98ED80005E4F05 /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68B343DF2C98ED80005E4F05 /* Products.plist */; };
+		68CFCE3B2C8F5E9C00281B4D /* SKHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 68CFCE3A2C8F5E9C00281B4D /* SKHelper */; };
+		68CFCE3E2C8F5F2000281B4D /* SKHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 68CFCE3D2C8F5F2000281B4D /* SKHelper */; };
+		68CFCE422C8F5FE000281B4D /* SKHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 68CFCE412C8F5FE000281B4D /* SKHelper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		682046722C6298DA002D9A68 /* SKHelperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKHelperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		682046882C629A69002D9A68 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		6820468F2C629BEE002D9A68 /* Products.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
 		682046902C629BEE002D9A68 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
 		682046912C629BEE002D9A68 /* SKHelperDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SKHelperDemo.entitlements; sourceTree = "<group>"; };
 		682046932C629BEE002D9A68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		682046952C629BEE002D9A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		682046962C629BEE002D9A68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		682046972C629BEE002D9A68 /* SKHelperDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKHelperDemoApp.swift; sourceTree = "<group>"; };
+		68B343DF2C98ED80005E4F05 /* Products.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
 		68F04A712C8A103300D3EE59 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		68F04A732C8A251400D3EE59 /* skhelper-demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skhelper-demo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -37,8 +39,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68671B762C89E4CB00C9B9C6 /* SKHelper in Frameworks */,
+				68CFCE422C8F5FE000281B4D /* SKHelper in Frameworks */,
+				68CFCE3B2C8F5E9C00281B4D /* SKHelper in Frameworks */,
 				681143772C666CC900D7A632 /* SKHelper in Frameworks */,
+				68CFCE3E2C8F5F2000281B4D /* SKHelper in Frameworks */,
 				682046892C629A69002D9A68 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,16 +77,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		682046922C629BEE002D9A68 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				6820468F2C629BEE002D9A68 /* Products.plist */,
-				682046902C629BEE002D9A68 /* Products.storekit */,
-				682046912C629BEE002D9A68 /* SKHelperDemo.entitlements */,
-			);
-			path = Configuration;
-			sourceTree = "<group>";
-		};
 		682046942C629BEE002D9A68 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,29 +88,15 @@
 		682046982C629BEE002D9A68 /* SKHelperDemo */ = {
 			isa = PBXGroup;
 			children = (
+				682046912C629BEE002D9A68 /* SKHelperDemo.entitlements */,
+				68B343DF2C98ED80005E4F05 /* Products.plist */,
+				682046902C629BEE002D9A68 /* Products.storekit */,
+				682046962C629BEE002D9A68 /* ContentView.swift */,
+				682046972C629BEE002D9A68 /* SKHelperDemoApp.swift */,
 				682046952C629BEE002D9A68 /* Assets.xcassets */,
-				682046922C629BEE002D9A68 /* Configuration */,
 				682046942C629BEE002D9A68 /* Preview Content */,
-				68DD2A0E2C62A8AB007BC81D /* Util */,
-				6820469F2C629C00002D9A68 /* Views */,
 			);
 			path = SKHelperDemo;
-			sourceTree = "<group>";
-		};
-		6820469F2C629C00002D9A68 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				682046962C629BEE002D9A68 /* ContentView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		68DD2A0E2C62A8AB007BC81D /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				682046972C629BEE002D9A68 /* SKHelperDemoApp.swift */,
-			);
-			path = Util;
 			sourceTree = "<group>";
 		};
 		68F04A722C8A250100D3EE59 /* readme-assets */ = {
@@ -145,7 +125,9 @@
 			name = SKHelperDemo;
 			packageProductDependencies = (
 				681143762C666CC900D7A632 /* SKHelper */,
-				68671B752C89E4CB00C9B9C6 /* SKHelper */,
+				68CFCE3A2C8F5E9C00281B4D /* SKHelper */,
+				68CFCE3D2C8F5F2000281B4D /* SKHelper */,
+				68CFCE412C8F5FE000281B4D /* SKHelper */,
 			);
 			productName = SKHelperDemo;
 			productReference = 682046722C6298DA002D9A68 /* SKHelperDemo.app */;
@@ -176,7 +158,7 @@
 			);
 			mainGroup = 682046692C6298DA002D9A68;
 			packageReferences = (
-				68671B742C89E4CB00C9B9C6 /* XCRemoteSwiftPackageReference "SKHelper" */,
+				68CFCE402C8F5FE000281B4D /* XCLocalSwiftPackageReference "../SKHelper" */,
 			);
 			productRefGroup = 682046732C6298DA002D9A68 /* Products */;
 			projectDirPath = "";
@@ -192,7 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				682046992C629BEE002D9A68 /* Products.plist in Resources */,
+				68B343E02C98ED80005E4F05 /* Products.plist in Resources */,
 				6820469A2C629BEE002D9A68 /* Products.storekit in Resources */,
 				6820469B2C629BEE002D9A68 /* Preview Assets.xcassets in Resources */,
 				6820469C2C629BEE002D9A68 /* Assets.xcassets in Resources */,
@@ -271,6 +253,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -325,6 +308,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};
@@ -333,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SKHelperDemo/Configuration/SKHelperDemo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SKHelperDemo/SKHelperDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SKHelperDemo/Preview Content\"";
@@ -377,7 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SKHelperDemo/Configuration/SKHelperDemo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SKHelperDemo/SKHelperDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SKHelperDemo/Preview Content\"";
@@ -439,25 +423,28 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		68671B742C89E4CB00C9B9C6 /* XCRemoteSwiftPackageReference "SKHelper" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/russell-archer/SKHelper";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		68CFCE402C8F5FE000281B4D /* XCLocalSwiftPackageReference "../SKHelper" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SKHelper;
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		681143762C666CC900D7A632 /* SKHelper */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SKHelper;
 		};
-		68671B752C89E4CB00C9B9C6 /* SKHelper */ = {
+		68CFCE3A2C8F5E9C00281B4D /* SKHelper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 68671B742C89E4CB00C9B9C6 /* XCRemoteSwiftPackageReference "SKHelper" */;
+			productName = SKHelper;
+		};
+		68CFCE3D2C8F5F2000281B4D /* SKHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SKHelper;
+		};
+		68CFCE412C8F5FE000281B4D /* SKHelper */ = {
+			isa = XCSwiftPackageProductDependency;
 			productName = SKHelper;
 		};
 /* End XCSwiftPackageProductDependency section */
