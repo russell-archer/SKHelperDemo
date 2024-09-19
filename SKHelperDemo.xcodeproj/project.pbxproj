@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		681143772C666CC900D7A632 /* SKHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 681143762C666CC900D7A632 /* SKHelper */; };
+		681AC8002C9C58E100FC6CCA /* SKHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 681AC7FF2C9C58E100FC6CCA /* SKHelper */; };
 		682046892C629A69002D9A68 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682046882C629A69002D9A68 /* StoreKit.framework */; };
 		6820469A2C629BEE002D9A68 /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 682046902C629BEE002D9A68 /* Products.storekit */; };
 		6820469B2C629BEE002D9A68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682046932C629BEE002D9A68 /* Preview Assets.xcassets */; };
@@ -41,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681AC8002C9C58E100FC6CCA /* SKHelper in Frameworks */,
 				68CFCE422C8F5FE000281B4D /* SKHelper in Frameworks */,
 				68CFCE3B2C8F5E9C00281B4D /* SKHelper in Frameworks */,
 				681143772C666CC900D7A632 /* SKHelper in Frameworks */,
@@ -131,6 +133,7 @@
 				68CFCE3A2C8F5E9C00281B4D /* SKHelper */,
 				68CFCE3D2C8F5F2000281B4D /* SKHelper */,
 				68CFCE412C8F5FE000281B4D /* SKHelper */,
+				681AC7FF2C9C58E100FC6CCA /* SKHelper */,
 			);
 			productName = SKHelperDemo;
 			productReference = 682046722C6298DA002D9A68 /* SKHelperDemo.app */;
@@ -161,7 +164,7 @@
 			);
 			mainGroup = 682046692C6298DA002D9A68;
 			packageReferences = (
-				68CFCE402C8F5FE000281B4D /* XCLocalSwiftPackageReference "../SKHelper" */,
+				681AC7FE2C9C58E100FC6CCA /* XCRemoteSwiftPackageReference "SKHelper" */,
 			);
 			productRefGroup = 682046732C6298DA002D9A68 /* Products */;
 			projectDirPath = "";
@@ -427,16 +430,25 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		68CFCE402C8F5FE000281B4D /* XCLocalSwiftPackageReference "../SKHelper" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../SKHelper;
+/* Begin XCRemoteSwiftPackageReference section */
+		681AC7FE2C9C58E100FC6CCA /* XCRemoteSwiftPackageReference "SKHelper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/russell-archer/SKHelper";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		681143762C666CC900D7A632 /* SKHelper */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = SKHelper;
+		};
+		681AC7FF2C9C58E100FC6CCA /* SKHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 681AC7FE2C9C58E100FC6CCA /* XCRemoteSwiftPackageReference "SKHelper" */;
 			productName = SKHelper;
 		};
 		68CFCE3A2C8F5E9C00281B4D /* SKHelper */ = {

@@ -1,0 +1,15 @@
+{
+  "originHash" : "be4d2a1eaec0d13c8a8858bd3fcb4fd83d44f47996e2da380fd0d68eadc39d38",
+  "pins" : [
+    {
+      "identity" : "skhelper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/russell-archer/SKHelper",
+      "state" : {
+        "branch" : "main",
+        "revision" : "cca763b13ad3b70326d48ad294c5dcbd3e8a5a1c"
+      }
+    }
+  ],
+  "version" : 3
+}
