@@ -29,7 +29,6 @@ struct ContentView: View {
                 // Trials, upgrades and downgrades are handled automatically.
                 NavigationLink("List all subscriptions") {
                     SKHelperSubscriptionStoreView(
-                        subscriptionGroupName: "vip",
                         subscriptionHeader: {
                             VStack {
                                 Image("plant-services").resizable().scaledToFit()
@@ -48,6 +47,16 @@ struct ContentView: View {
                                 Text("Here is some text about why you might want to buy this product.")
                             }
                         })
+                }
+                
+                // Show all purchases the user has made.
+                NavigationLink("List all purchases") {
+                    SKHelperPurchasesView()
+                }
+                
+                // Show the small flowers purchase-related view
+                NavigationLink("Access Small Flowers") {
+                    SmallFlowersView()
                 }
             }
         }
