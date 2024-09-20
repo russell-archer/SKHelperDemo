@@ -14,7 +14,7 @@
 `SKHelperDemo` is an Xcode 16 project that provides a bare-bones example of how to use the `SKHelper` package to create a
 SwiftUI project that supports in-app purchases.
 
-Refer to the [SKHelper Quick Start](https://russell-archer.github.io/SKHelper/documentation/skhelper/quickstart) for a step-by-step walk-through
+Refer to the [SKHelper Quick Start](https://russell-archer.github.io/SKHelper/tutorials/quickstart) for a step-by-step walk-through
 of how to create a SwiftUI app that supports in-app purchases in the form of subscriptions and non-consumable products.
 
 ---
@@ -49,4 +49,4 @@ See [License](https://russell-archer.github.io/SKHelper/documentation/skhelper/l
 
 ## Getting Started
 
-Jump to the [SKHelper Quick Start](https://russell-archer.github.io/SKHelper/documentation/skhelper/quickstart) guide.
+Jump to the [SKHelper Quick Start](https://russell-archer.github.io/SKHelper/tutorials/quickstart) guide.
