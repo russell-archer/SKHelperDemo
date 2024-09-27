@@ -17,10 +17,10 @@
 		68B015AE2C9DEF04000C1E31 /* SKHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 68B015AD2C9DEF04000C1E31 /* SKHelper */; };
 		68B343E02C98ED80005E4F05 /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68B343DF2C98ED80005E4F05 /* Products.plist */; };
 		68C33D032C9BAD5D00D56E0D /* SmallFlowersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C33D022C9BAD5D00D56E0D /* SmallFlowersView.swift */; };
-		68C96D712C9DF292007CACB0 /* SKHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 68C96D702C9DF292007CACB0 /* SKHelper */; };
 		68CFCE3B2C8F5E9C00281B4D /* SKHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 68CFCE3A2C8F5E9C00281B4D /* SKHelper */; };
 		68CFCE3E2C8F5F2000281B4D /* SKHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 68CFCE3D2C8F5F2000281B4D /* SKHelper */; };
 		68CFCE422C8F5FE000281B4D /* SKHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 68CFCE412C8F5FE000281B4D /* SKHelper */; };
+		68D1DA862CA18B1D00B09DC9 /* SKHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 68D1DA852CA18B1D00B09DC9 /* SKHelper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +34,7 @@
 		682046972C629BEE002D9A68 /* SKHelperDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKHelperDemoApp.swift; sourceTree = "<group>"; };
 		68B343DF2C98ED80005E4F05 /* Products.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
 		68C33D022C9BAD5D00D56E0D /* SmallFlowersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallFlowersView.swift; sourceTree = "<group>"; };
+		68D1DA872CA18D5D00B09DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		68F04A712C8A103300D3EE59 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		68F04A732C8A251400D3EE59 /* skhelper-demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skhelper-demo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68C96D712C9DF292007CACB0 /* SKHelper in Frameworks */,
+				68D1DA862CA18B1D00B09DC9 /* SKHelper in Frameworks */,
 				68B015AE2C9DEF04000C1E31 /* SKHelper in Frameworks */,
 				68CFCE422C8F5FE000281B4D /* SKHelper in Frameworks */,
 				68CFCE3B2C8F5E9C00281B4D /* SKHelper in Frameworks */,
@@ -94,6 +95,7 @@
 		682046982C629BEE002D9A68 /* SKHelperDemo */ = {
 			isa = PBXGroup;
 			children = (
+				68D1DA872CA18D5D00B09DC9 /* Info.plist */,
 				682046912C629BEE002D9A68 /* SKHelperDemo.entitlements */,
 				68B343DF2C98ED80005E4F05 /* Products.plist */,
 				682046902C629BEE002D9A68 /* Products.storekit */,
@@ -136,7 +138,7 @@
 				68CFCE3D2C8F5F2000281B4D /* SKHelper */,
 				68CFCE412C8F5FE000281B4D /* SKHelper */,
 				68B015AD2C9DEF04000C1E31 /* SKHelper */,
-				68C96D702C9DF292007CACB0 /* SKHelper */,
+				68D1DA852CA18B1D00B09DC9 /* SKHelper */,
 			);
 			productName = SKHelperDemo;
 			productReference = 682046722C6298DA002D9A68 /* SKHelperDemo.app */;
@@ -167,7 +169,7 @@
 			);
 			mainGroup = 682046692C6298DA002D9A68;
 			packageReferences = (
-				68C96D6F2C9DF292007CACB0 /* XCRemoteSwiftPackageReference "SKHelper" */,
+				68D1DA842CA18B1D00B09DC9 /* XCLocalSwiftPackageReference "../SKHelper" */,
 			);
 			productRefGroup = 682046732C6298DA002D9A68 /* Products */;
 			projectDirPath = "";
@@ -335,6 +337,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SKHelperDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SKHelperDemo;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -379,6 +382,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SKHelperDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SKHelperDemo;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -433,16 +437,12 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		68C96D6F2C9DF292007CACB0 /* XCRemoteSwiftPackageReference "SKHelper" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/russell-archer/SKHelper";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		68D1DA842CA18B1D00B09DC9 /* XCLocalSwiftPackageReference "../SKHelper" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SKHelper;
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		681143762C666CC900D7A632 /* SKHelper */ = {
@@ -451,11 +451,6 @@
 		};
 		68B015AD2C9DEF04000C1E31 /* SKHelper */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = SKHelper;
-		};
-		68C96D702C9DF292007CACB0 /* SKHelper */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 68C96D6F2C9DF292007CACB0 /* XCRemoteSwiftPackageReference "SKHelper" */;
 			productName = SKHelper;
 		};
 		68CFCE3A2C8F5E9C00281B4D /* SKHelper */ = {
@@ -467,6 +462,10 @@
 			productName = SKHelper;
 		};
 		68CFCE412C8F5FE000281B4D /* SKHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SKHelper;
+		};
+		68D1DA852CA18B1D00B09DC9 /* SKHelper */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SKHelper;
 		};

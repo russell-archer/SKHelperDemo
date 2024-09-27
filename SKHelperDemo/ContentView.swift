@@ -60,6 +60,9 @@ struct ContentView: View {
                 }
             }
         }
+        
+        Spacer()
+        Button("Clear cached entitlements") { store.clearCachedEntitlements() }.font(.caption).padding()
     }
 }
 

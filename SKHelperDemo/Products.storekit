@@ -43,13 +43,25 @@
       "productID" : "com.rarcher.nonconsumable.flowers.small",
       "referenceName" : "Flowers Small",
       "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "AF56CDCC",
+      "localizations" : [
+        {
+          "description" : "Expert plant setup.",
+          "displayName" : "Plant installation",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.rarcher.consumable.plant.installation",
+      "referenceName" : "Plant Installation",
+      "type" : "Consumable"
     }
   ],
   "settings" : {
     "_billingGracePeriodEnabled" : false,
-    "_compatibilityTimeRate" : {
-      "3" : 6
-    },
     "_failTransactionsEnabled" : false,
     "_locale" : "en_US",
     "_renewalBillingIssuesEnabled" : false,
@@ -101,7 +113,7 @@
         "name" : "Offer Code Redeem Sheet"
       }
     ],
-    "_timeRate" : 1001
+    "_timeRate" : 0
   },
   "subscriptionGroups" : [
     {

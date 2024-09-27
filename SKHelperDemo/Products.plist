@@ -6,6 +6,7 @@
     <array>
         <string>com.rarcher.nonconsumable.flowers.large</string>
         <string>com.rarcher.nonconsumable.flowers.small</string>
+        <string>com.rarcher.consumable.plant.installation</string>
     </array>
     <key>Subscriptions</key>
     <array>
