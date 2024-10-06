@@ -47,6 +47,9 @@ struct ContentView: View {
                                 Text("Here is some text about why you might want to buy this product.")
                             }
                         })
+                    .onSubscriptionChange() { productId, transactionId, renewalState, hasExpired  in
+                        print("The status of subscription \(productId) changed to \(renewalState.localizedDescription)")
+                    }
                 }
                 
                 // Show all purchases the user has made.
